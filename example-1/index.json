@@ -1,14 +1,19 @@
 {
-  "title": "Kubernetes 1node",
-  "description": "Use a simple one node Kubernetes cluster and let user list all pods",
+  "title": "Kubernetes interview",
+  "description": "Hello, this is a simple test.",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
     },
     "steps": [
       {
-        "title": "List all pods",
-        "text": "step1.md"
+        "title": "建立 Ingress",
+        "text": "step1.md",
+        "foreground": "step1/foreground.sh",
+        "background": "step1/background.sh",
+        "verify": "step1/verify.sh"
       }
     ],
     "finish": {
@@ -16,6 +21,6 @@
     }
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }

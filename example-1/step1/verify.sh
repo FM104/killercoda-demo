@@ -1,0 +1,1 @@
+kubectl get ingress -n ingress-nginx
