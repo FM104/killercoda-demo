@@ -5,3 +5,5 @@ helm repo update
 
 kubectl create ns ingress-nginx
 helm install ingress-nginx ingress-nginx/ingress-nginx -n ingress-nginx
+
+sleep 10
