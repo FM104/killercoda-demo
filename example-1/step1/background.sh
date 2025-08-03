@@ -1,3 +1,5 @@
+#!/bin/bash
+
 touch /tmp/step1-background
 
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
