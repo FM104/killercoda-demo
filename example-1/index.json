@@ -9,14 +9,11 @@
     "steps": [
       {
         "title": "建立 Ingress (不要驗證)",
-        "text": "step1.md",
-        "foreground": "step1/foreground.sh",
-        "background": "intro/background.sh"
+        "text": "step1.md"
       },
       {
         "title": "建立 Ingress (要驗證)",
         "text": "step1.md",
-        "background": "step1/background.sh",
         "foreground": "step1/foreground.sh",
         "verify": "step1/verify.sh"
       }
